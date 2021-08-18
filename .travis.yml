@@ -2,4 +2,4 @@ language: java
 jdk:
  - openjdk10
  - openjdk11
-script: cd Bank && mvn build
+script: cd Bank && mvn clean verify
